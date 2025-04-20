@@ -70,6 +70,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--iris);
+margin-right: 76px
   }
 
 .logo-black{
@@ -114,6 +115,7 @@ color: var(--slate);}
 .studio-info .link:hover,
 .studio-info .link:focus{
     color:var(--ocean);
+    padding: 24px 0;
 }
 
 .contacts-info .link{
