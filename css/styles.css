@@ -249,8 +249,8 @@ background-color: var(--navy-blue);
  .back{
     background-color: #FFFFFF;
  }
- .conteiner{
+ .container{
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px;  
  }
