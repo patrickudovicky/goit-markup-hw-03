@@ -232,7 +232,7 @@ padding: 120px 0;
 
 .our-team{
 background-color: var(--cloud);
-padding: 120px;
+padding: 120px 0;
 }
 
 .back-team{
@@ -249,8 +249,10 @@ padding: 120px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);}
+    color: var(--navy-blue);
     margin-bottom: 72px;
+}
+    
 
 
 
