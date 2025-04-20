@@ -132,11 +132,11 @@ color: var(--ocean);
     gap: 40px;
 }
 
-.contacts-info .contact{font-weight: 400;
-font-size: 16px;
-
-/* line-height: 24px; */ 
-line-height: 1.5;
+.contacts-info .contact{
+    font-weight: 400;
+    font-size: 16px;
+     /* line-height: 24px; */ 
+    line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate);
 margin-right: 40px;}
@@ -167,6 +167,7 @@ margin-right: 40px;}
 
 .made{
     background-color: var(--navy-blue);
+    padding: 188px 0;
 }
 
 .page-title{
@@ -178,6 +179,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--white);
+max-width: 496px;
 }
 .order-button{
 background: var(--iris);
@@ -190,6 +192,10 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--white);
 cursor: pointer;
+display: block;
+min-width: 169px;
+height: 56px;
+border-radius: 4px;
 }
 .order-button:hover,
 .order-button:focus{
@@ -197,6 +203,33 @@ color: var(--white);
 background: var(--ocean);
 
 }
+
+.page-advantages{
+padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .list-advantages{
+    display: flex;
+    gap: 24px;
+  }
+
+.advantages-list-item{
+    width: calc((100% - 72px) / 4);
+}
+
 .our-team{
 background-color: var(--cloud);
 }
@@ -223,6 +256,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
+margin-bottom: 8px;
 }
 
 .description-skills{
