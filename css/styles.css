@@ -114,6 +114,7 @@ color: var(--ocean);
 
 .contacts-list{
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
@@ -158,6 +159,7 @@ margin-right: 40px;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    padding: 24px 0;
 }
 .contacts-info .contact:hover,
 .contacts-info .contact:focus{
