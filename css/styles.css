@@ -112,6 +112,11 @@ letter-spacing: 0.02em;
 color: var(--ocean);
 }
 
+.contacts-list{
+    display: flex;
+    gap: 40px;
+}
+
 .contacts-info{
     display: flex;
     align-items: center;
@@ -132,7 +137,13 @@ font-size: 16px;
 /* line-height: 24px; */ 
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--slate);}
+color: var(--slate);
+margin-right: 40px;}
+
+.contacts-info .contact:last-child{
+    margin-right: 0;
+}
+
 .studio-info .link:hover,
 .studio-info .link:focus{
     color:var(--ocean);
