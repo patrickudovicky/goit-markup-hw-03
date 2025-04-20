@@ -34,7 +34,15 @@
     max-width: 100%;
     height: auto;
     }
+    header{
+        border-bottom: 1px solid #e7e9fc
+    }
 
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+    
 .container-header{
     display: flex;
     align-items: center;
