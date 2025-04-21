@@ -215,9 +215,11 @@ cursor: pointer;
 display: block;
 min-width: 169px;
 height: 56px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+padding: 16px 0;
 border-radius: 4px;
 border: none;
-margin: 0 auto 48px;
+margin: 0 auto;
 }
 .order-button:hover,
 .order-button:focus{
