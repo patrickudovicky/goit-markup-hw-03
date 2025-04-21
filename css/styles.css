@@ -119,6 +119,7 @@ color: var(--navy-blue);
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     padding: 24px 0;
+    display: block;
 }
 
 .page-info .link:hover,
