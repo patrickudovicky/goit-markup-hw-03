@@ -36,7 +36,7 @@
     max-width: 100%;
     height: auto;
     }
-    
+
 .header-style{
 border-bottom: 1px solid #e7e9fc
 }
@@ -111,7 +111,7 @@ color: var(--navy-blue);
 }
 
 .page-info-item{
-padding: 24px 0;
+padding: 24px 0 24px;
 }
 
 .page-info .link{
