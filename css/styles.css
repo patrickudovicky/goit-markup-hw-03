@@ -34,7 +34,12 @@
     max-width: 100%;
     height: auto;
     }
-    
+
+    ul{
+    padding-left: 0; 
+    margin: 0;
+    }
+
 .header-style{
 border-bottom: 1px solid #e7e9fc
 }
@@ -252,8 +257,6 @@ padding: 120px 0;
   .list-advantages{
     display: flex;
     gap: 24px;
-    padding-left: 0; 
-    margin: 0;
   }
 
 .advantages-list-item{
@@ -276,8 +279,6 @@ padding: 120px 0;
 .back-team{
     display: flex;
     gap: 24px;
-    padding-left: 0; 
-    margin: 0;
 }
 
 .title-advantages{
@@ -305,8 +306,6 @@ padding: 120px 0;
     justify-content: center;
     row-gap: 48px;
     column-gap: 24px;
-    padding-left: 0; 
-    margin: 0;
 }
 
 .portfolio-item{
