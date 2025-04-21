@@ -34,9 +34,10 @@
     max-width: 100%;
     height: auto;
     }
-    .header-style{
-        border-bottom: 1px solid #e7e9fc
-    }
+    
+.header-style{
+border-bottom: 1px solid #e7e9fc
+}
 
 .header-nav{
     display: flex;
@@ -115,6 +116,7 @@ color: var(--navy-blue);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    padding: 24px 0;
 }
 
 .page-info .link:hover,
